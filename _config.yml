@@ -1,3 +1,4 @@
 title: "Remote theme example"
 remote_theme: pmarsceill/just-the-docs
 search_enabled: false
+color_scheme: nil
