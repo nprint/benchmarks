@@ -24,7 +24,9 @@ The goal of this repository is to centralize, standardize, and track the progres
 * **Code**
   * A link to the code which created the results described is highly encouraged.
 
-### Adding a New Result
+## Instructions
+
+### New Results
 
 If you would like to add a new result, you can just click on the small edit button in the top-right corner of the file for the respective task (see below).
 
@@ -34,7 +36,7 @@ Fill out the file change information
 
 Add a name for your proposed change, an optional description, indicate that you would like to "Create a new branch for this commit and start a pull request", and click on "Propose file change".
 
-### Adding a New Task or Dataset
+### New Tasks or Datasets
 
 * If the task is new, create a new file and link to it in the table of contents.
 * If not, add your dataset to the respective section of the corresponding file (in alphabetical order).
