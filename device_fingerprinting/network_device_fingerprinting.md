@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Network Device Fingerprinting
-# parent: Device Fingerprinting
+parent: Device Fingerprinting
 has_children: false
 ---
 
