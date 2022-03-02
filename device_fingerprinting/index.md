@@ -5,4 +5,4 @@ title: Remote Device Fingerprinting
 has_children: true
 ---
 
-Remote device fingerprinting tasks generally involve actively probing devices, extracting information from the response to the probes, and using the extracted information to classify the devices.
+Remote device fingerprinting tasks generally consist of actively probing devices, extracting information from the response to the probes, and using the extracted information to classify the devices.
