@@ -1,10 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
-has_children: false
----
-
 # Tracking Progress in Network Traffic Analysis
 
 The goal of this repository is to centralize, standardize, and track the progress of techniques in network traffic analysis for a variety of tasks.
