@@ -44,6 +44,6 @@ Add a name for your proposed change, an optional description, indicate that you 
 * Copy the table below and fill int he first result for the dataset. A single score metric to optimize for is preferred.
 * Submit the change as a pull request to the repository
 
-| Model | Score | Paper | Code |
-|:-----:|:-----:|-------|------|
-|       |       |       |      |
+| Model | Disallowed Features | # Folds or SampleIDs | Score | Paper | Code |
+|:-----:|---------------------|----------------------|:-----:|-------|------|
+|       |                     |                      |       |       |      |
