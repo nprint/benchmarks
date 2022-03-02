@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Network and IoT Device Fingerprinting
-parent: Device Fingerprinting
+parent: Remote Device Fingerprinting
 has_children: false
 ---
 
