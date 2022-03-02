@@ -12,9 +12,17 @@ The goal of this repository is to centralize, standardize, and track the progres
 
 # Contributing
 
-## Results  
+## Requirements
 
-* Results reported in published papers are preferred; an exception may be made for influential preprints.
+* **Results**  
+  * Results reported in published papers are preferred; an exception may be made for influential preprints.
+* **Datasets**
+  * Must be encoded using [pcapML](https://github.com/nprint/pcapml) for standardization. *Every* packet in each dataset must be associated with a sampleID (more information [here](https://nprint.github.io/pcapml_walk.html))
+  * Must be accompanied by at least one result to benchmark against
+  * Must describe any features that cannot be used for classification (e.g. IP addresses directly identify samples)
+  * Must describe either the number of folds needed to benchmark against, or the training sampleIDs and testing sampleIDs if using a single data fold.
+* **Code**
+  * A link to the code which created the results described is highly encouraged.
 
 ### Adding a New Result
 
@@ -25,15 +33,6 @@ This allows you to edit the file in Markdown. Simply add a row to the correspond
 Fill out the file change information
 
 Add a name for your proposed change, an optional description, indicate that you would like to "Create a new branch for this commit and start a pull request", and click on "Propose file change".
-
-## Datasets
-
-* Must be encoded using [pcapML](https://github.com/nprint/pcapml) for standardization. *Every* packet in each dataset must be associated with a sampleID (more information [here](https://nprint.github.io/pcapml_walk.html))
-* Must be accompanied by at least one result to benchmark against
-* Must describe any features that cannot be used for classification (e.g. IP addresses directly identify samples)
-* Must describe either the number of folds needed to benchmark against, or the training sampleIDs and testing sampleIDs if using a single data fold.
-Adding a new dataset or task
-
 
 ### Adding a New Task or Dataset
 
