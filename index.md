@@ -20,7 +20,7 @@ The goal of this repository is to centralize, standardize, and track the progres
   * Must be encoded using [pcapML](https://github.com/nprint/pcapml) for standardization. *Every* packet in each dataset must be associated with a sampleID (more information [here](https://nprint.github.io/pcapml_walk.html))
   * Must be accompanied by at least one result to benchmark against
   * Must describe any features that cannot be used for classification (e.g. IP addresses directly identify samples)
-  * Must describe either the number of folds needed to benchmark against, or the training sampleIDs and testing sampleIDs if using a single data fold.
+  * Must list network protocols in the dataset.
 * **Code**
   * A link to the code which created the results described is highly encouraged.
 
