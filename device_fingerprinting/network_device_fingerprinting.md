@@ -15,6 +15,7 @@ The task is to use the raw packet responses from Nmap's probes to accurately cla
 
 ## Links and Facts
 * Dataset Link: [Google Drive](https://drive.google.com/file/d/1vd38hHMB77Qk7V7Q3mXy4ucvMq0KC7Pu/view?usp=sharing)
+* Dataset Size (Uncompressed): < 1GB
 * Disallowed features: None
 * Number of classes: 15
 * pcapML metadata comment format: `sampleID,label,probe_name`
@@ -27,7 +28,7 @@ Device fingerprinting represents a unique task in that each packet in the datase
 is named according to the probe that it was responding to. This extra information is helpful when extracting features from the dataset, and is encoded in
 the pcapML metadata comment.
 
-## Citations
+## Citation(s)
 
 Routers:
 ```
