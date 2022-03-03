@@ -19,7 +19,7 @@ has_children: false
 
 ## Dataset Overview
 
-This dataset .....
+This dataset ...
 
 ## Task Description
 
@@ -27,15 +27,16 @@ The task is to ...
 
 ## Links and Facts
 * Dataset Link: 
-* Disallowed features: 
+* Dataset Size (Uncompressed): 
+* Disallowed Features: 
 * Number of Classes: 
-* pcapML metadata comment format: `sampleID,metadata`
+* pcapML Metadata Comment Format: `sampleID,metadata`
 * Protocols: 
-* Optimization metric:
+* Metric to Optimize:
 
 ## Special Dataset Notes
 
-Any special dataset notes here
+Any special dataset notes here.
 
 ## Citation(s)
 
