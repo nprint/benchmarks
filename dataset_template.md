@@ -28,7 +28,7 @@ The task is to ...
 ## Links and Facts
 * Dataset Link: 
 * Disallowed features: 
-* # Classes: 
+* Number of Classes: 
 * pcapML metadata comment format: `sampleID,metadata`
 * protocols: 
 * Optimization metric:
