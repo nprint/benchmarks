@@ -30,7 +30,7 @@ The task is to ...
 * Disallowed features: 
 * Number of Classes: 
 * pcapML metadata comment format: `sampleID,metadata`
-* protocols: 
+* Protocols: 
 * Optimization metric:
 
 ## Special Dataset Notes
