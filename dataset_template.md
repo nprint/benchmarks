@@ -37,16 +37,14 @@ The task is to ...
 
 Any special dataset notes here
 
-## Citations
+## Citation(s)
 
 ```
 Citation
 ```
 
-
 # Leaderboard
 ___
 
-| Model | Disallowed Features | # Folds or SampleIDs | Score | Paper | Code |
-|:-----:|---------------------|----------------------|:-----:|-------|------|
-|       |                     |                      |       |       |      |
+| Model | Score | Paper | Code |
+|:-----:|:-----:|:-----:|:----:|
