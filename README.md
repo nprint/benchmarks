@@ -34,7 +34,3 @@ Adding a new dataset or task
 * Describe the dataset, task, and include download and citation links
 * Copy the table below and fill int he first result for the dataset. A single score metric to optimize for is preferred.
 * Submit the change as a pull request to the repository
-
-| Model | Disallowed Features | # Folds or SampleIDs | Score | Paper | Code |
-|:-----:|---------------------|----------------------|:-----:|-------|------|
-|       |                     |                      |       |       |      |
