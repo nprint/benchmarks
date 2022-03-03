@@ -18,6 +18,8 @@ The task is to use the raw packet responses from Nmap's probes to accurately cla
 * Disallowed features: None
 * Number of classes: 15
 * pcapML metadata comment format: `sampleID,label,probe_name`
+* protocols: IPv4, TCP, ICMP
+* Optimization metric: balanced accuracy
 
 ## Special Dataset Notes
 
@@ -53,6 +55,6 @@ series = {CCS '21}
 # Leaderboard
 ___
 
-|       Model      | Macro F1 |                                                     Paper                                                     |                    Code                   |
+|       Model      | Balanced Accuracy |                                                     Paper                                                     |                    Code                   |
 |:----------------:|:--------:|:-------------------------------------------------------------------------------------------------------------:|:-----------------------------------------:|
-| nPrint Autogluon |     95.5 | [CCS 2021](https://dl.acm.org/doi/abs/10.1145/3460120.3484758) - [Arxiv](https://arxiv.org/pdf/2008.02695.pdf) | [nPrint](https://github.com/nprint/nprint) |
+| nPrint Autogluon |     95.4 | [CCS 2021](https://dl.acm.org/doi/abs/10.1145/3460120.3484758) - [Arxiv](https://arxiv.org/pdf/2008.02695.pdf) | [nPrint](https://github.com/nprint/nprint) |
