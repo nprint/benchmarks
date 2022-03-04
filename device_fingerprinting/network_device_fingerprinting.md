@@ -16,11 +16,11 @@ The task is to use the raw packet responses from Nmap's probes to accurately cla
 ## Links and Facts
 * Dataset Link: [Google Drive](https://drive.google.com/file/d/1vd38hHMB77Qk7V7Q3mXy4ucvMq0KC7Pu/view?usp=sharing)
 * Dataset Size (Uncompressed): < 1GB
-* Disallowed features: None
-* Number of classes: 15
-* pcapML metadata comment format: `sampleID,label,probe_name`
-* protocols: IPv4, TCP, ICMP
-* Optimization metric: balanced accuracy
+* Disallowed Features: None
+* Number of Classes: 15
+* pcapML Metadata Comment Format: `sampleID,label,probe_name`
+* Protocols: IPv4, TCP, ICMP
+* Optimization Metric: balanced accuracy
 
 ## Special Dataset Notes
 
