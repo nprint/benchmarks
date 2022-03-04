@@ -26,7 +26,7 @@ The task is to classify the (browser, application) tuple in each DTLS handshake 
 * Number of Classes: 7
 * pcapML Metadata Comment Format: `sampleID,label`
 * Protocols: IPv4, UDP, DTLS
-* Metric to Optimize: Balanced Accuracy
+* Metric to Optimize: Macro F1
 
 ## Special Dataset Notes
 
@@ -34,7 +34,7 @@ None
 
 ## Citation(s)
 
-Origianl Release
+Original Release
 ```
 @article{macmillan2020evaluating,
 title={Evaluating snowflake as an indistinguishable censorship circumvention tool},
@@ -45,7 +45,6 @@ year={2020}
 ```
 
 Subsequent Dataset Release (Fine-grained Classes)
-
 ```
 @inproceedings{10.1145/3460120.3484758,
 author = {Holland, Jordan and Schmitt, Paul and Feamster, Nick and Mittal, Prateek},
