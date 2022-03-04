@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Network and IoT Device Fingerprinting
+title: Nmap Network and IoT Device Fingerprinting
 parent: Remote Device Fingerprinting
 has_children: false
 ---
