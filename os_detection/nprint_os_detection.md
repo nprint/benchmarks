@@ -59,7 +59,6 @@ series = {CCS '21}
 
 # Leaderboard
 
-___
 |           Model           | Balanced Accuracy |                                                      Paper                                                     |                    Code                    |
 |:-------------------------:|:-----------------:|:--------------------------------------------------------------------------------------------------------------:|:------------------------------------------:|
 | nPrint Autogluon (AutoML) |              77.1 | [CCS 2021](https://dl.acm.org/doi/abs/10.1145/3460120.3484758) - [Arxiv](https://arxiv.org/pdf/2008.02695.pdf) | [nPrint](https://github.com/nprint/nprint) |
