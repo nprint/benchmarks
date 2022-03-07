@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dataset Name Here
+title: dataset title here ALL LOWERCASE
 parent: Task Type Here
 has_children: false
 nav_exclude: true
