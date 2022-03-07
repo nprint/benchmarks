@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Snowflake Fingerprintability
+title: snowflake fingerprintability
 parent: Application Identification
 has_children: false
 ---
