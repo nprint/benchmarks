@@ -37,5 +37,6 @@ Adding a new dataset or task
 
 * If the task is new, create a new task file to create a new task category ([Example here](https://raw.githubusercontent.com/nprint/benchmarks/main/application_identification/index.md))
 * If not, add your dataset under the correct task using the [new dataset template](https://raw.githubusercontent.com/nprint/benchmarks/main/dataset_template.md)
+* The easiest way to create a markdown table is using [TablesGenerator](https://tablesgenerator.com/markdown_tables). Please right align metric columns.
 * You will need to change the `nav_exclude:` parameter to `false` (or remove the parameter from the page) for the page to be listed.
 * Submit the change as a pull request to the repository
