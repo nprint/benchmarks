@@ -1,19 +1,10 @@
 ---
 layout: default
-title: New Dataset Template
-nav_order: 2
-description: "Template for adding new tasks / datasets"
----
-
-{::comment}
-Uncomment the below markdown to format, title, and place the page correctly
----
-layout: default
 title: Dataset Name Here
 parent: Task Type Here
 has_children: false
+nav_exclude: true
 ---
-{:/comment}
 
 # Dataset Name Here
 
