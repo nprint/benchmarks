@@ -28,6 +28,8 @@ Device fingerprinting represents a unique task in that each packet in the datase
 is named according to the probe that it was responding to. This extra information is helpful when extracting features from the dataset, and is encoded in
 the pcapML metadata comment.
 
+The IPs have been cryptopanned prior to release.
+
 ## Citation(s)
 
 Routers:
