@@ -1,6 +1,6 @@
 ---
 layout: default
-title: nPrint Streaming Video Services
+title: nprint streaming video services
 parent: Application Identification
 has_children: false
 ---
