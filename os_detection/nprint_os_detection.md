@@ -1,6 +1,6 @@
 ---
 layout: default
-title: nPrint OS Detection
+title: nprint os detection
 parent: OS Detection
 has_children: false
 ---
@@ -22,7 +22,7 @@ The task is to classify the operating system of the device that sent each 100 pa
 * Dataset Size (Uncompressed): < 1 GB
 * Disallowed Features: IPv4 Source IP, IPv4 Destination IP, TCP Ssource Port, TCP Destination Port, TCP SEQ and TCP ACK Numbers.
 * Number of Classes: 13
-* pcapML Metadata Comment Format: `sampleID,label`
+* pcapML Metadata Comment Format: `sampleID,easylabel_hardlabel`
 * Protocols: IPv4, TCP
 * Metric to Optimize: Balanced Accuracy
 
@@ -57,7 +57,7 @@ series = {CCS '21}
 }
 ```
 
-# Leaderboard
+# Leaderboard (Hard Label)
 
 |           Model           | Balanced Accuracy |                                                      Paper                                                     |                    Code                    |
 |:-------------------------:|:-----------------:|:--------------------------------------------------------------------------------------------------------------:|:------------------------------------------:|
