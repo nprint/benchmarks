@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Nmap Network and IoT Device Fingerprinting
+title: nmap network and iot device fingerprinting
 parent: Remote Device Fingerprinting
 has_children: false
 ---
 
-# Network and IoT Device Fingerprinting
+# Nmap Network and IoT Device Fingerprinting
 
 ## Dataset Overview
 This dataset was gathered by actively probing remote network devices across the internet using [Nmap](https://nmap.org/). Labels were gathered through a combination of SSH and Telnet banner grabs (for routers) and [Shodan](https://www.shodan.io/) (for IoT devices) 
