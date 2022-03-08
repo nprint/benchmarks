@@ -1,4 +1,40 @@
 title: "The nPrint Project"
 remote_theme: pmarsceill/just-the-docs
+decsription: Standardized Network Traffic Analysis Benchmarks
 search_enabled: false
-color_scheme: nil
+color_scheme: nprint
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "The nPrint Project":
+    - "nprint.github.io"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
+nav_sort: case_sensitive
+back_to_top: true
+back_to_top_text: "Back to top"
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+footer_content: "Copyright &copy; 2022 the nPrint team. Distributed by an <a href=\"https://github.com/nprint/pcapml/tree/master/LICENSE\">Apache 2.0 license.</a>"
+
+plugins:
+  - jekyll-seo-tag
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
