@@ -1,4 +1,4 @@
-# Tracking Progress in Network Traffic Analysis
+# The pcapML Benchmarks
 
 The goal of this repository is to centralize, standardize, and track the progress of techniques in network traffic analysis for a variety of tasks. This repository
 was modeled after the incredibly successful [nlpprogress](https://nlpprogress.com/) repository.
