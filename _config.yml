@@ -10,7 +10,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "The nPrint Project":
-    - "nprint.github.io"
+    - "//nprint.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
