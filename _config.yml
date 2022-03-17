@@ -14,7 +14,7 @@ aux_links:
   "pcapML Benchmark Repository":
     - "//github.com/nprint/benchmarks"
   "pcapML":
-    - "//nprint.github.io/pcapml
+    - "//nprint.github.io/pcapml"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
