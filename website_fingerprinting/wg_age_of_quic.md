@@ -25,12 +25,12 @@ The task is to identify the visited website given traces which may have been col
 * Number of Classes: 101
 * pcapML Metadata Comment Format: `sampleID,final URL;original URL;tcp or quic;VPN location`
 * Protocols: Ethernet, IP, UDP, Wireguard
-* Metric to Optimize: recall, [r-precision](https://doi.org/10.1109/SP.2020.00015)
+* Metric to Optimize: recall, [r-precision](https://doi.org/10.1109/SP40000.2020.00015)
 
 ## Special Dataset Notes
 
-The dataset contains around 100 samples per QUIC and TCP per monitored class, and 3 samples per QUIC and TCP per unmonitored website.
-There are additional samples which would need to be removed to have a dataset with exactly 200 samples per monitored class.
+The dataset contains more than 100 samples per QUIC and TCP per monitored class, around monitored 100 classes, and 3 samples per QUIC and TCP per unmonitored website.
+The original evaluations were run on a subsampled dataset of *exactly* 100 samples per QUIC and TCP monitored class and 100 monitored classes, and *exactly* 3 samples per protocol per unmonitored website. 
 See the [code](https://github.com/jpcsmith/wf-in-the-age-of-quic/) from the original paper for dataset cleaning and filtering.
 
 ## Citation(s)
