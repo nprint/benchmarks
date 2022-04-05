@@ -25,13 +25,19 @@ The task is to identify the visited website given traces which may have been col
 * Number of Classes: 101
 * pcapML Metadata Comment Format: `sampleID,final URL;original URL;tcp or quic;VPN location`
 * Protocols: Ethernet, IP, UDP, Wireguard
-* Metric to Optimize: recall, [r-precision](https://doi.org/10.1109/SP.2020.00015)
+* Metric to Optimize: F<sub>1,r</sub>-score (see notes below)
 
 ## Special Dataset Notes
 
-The dataset contains around 100 samples per QUIC and TCP per monitored class, and 3 samples per QUIC and TCP per unmonitored website.
-There are additional samples which would need to be removed to have a dataset with exactly 200 samples per monitored class.
+The dataset contains more than 100 samples per QUIC and TCP per monitored class, around monitored 100 classes, and 3 samples per QUIC and TCP per unmonitored website.
+The original evaluations were run on a subsampled dataset of *exactly* 100 samples per QUIC and TCP monitored class and 100 monitored classes, and *exactly* 3 samples per protocol per unmonitored website. 
 See the [code](https://github.com/jpcsmith/wf-in-the-age-of-quic/) from the original paper for dataset cleaning and filtering.
+
+The F<sub>1,r</sub>-score is the F<sub>1</sub>-score calculated using the r-precision score of [Wang et al. (2020)](https://doi.org/10.1109/SP40000.2020.00015). It is calculated as
+
+<img src="https://render.githubusercontent.com/render/math?math=F_{1,r}=\frac{2}{\text{recall}^{-1}%2B\text{r-precision}^{-1}}">
+
+The F<sub>1,r</sub>-scores below were calculated with an r-value of 20.
 
 ## Citation(s)
 
@@ -50,9 +56,9 @@ See the [code](https://github.com/jpcsmith/wf-in-the-age-of-quic/) from the orig
 # Leaderboard
 ___
 
-| Model         | r-Precision | Recall | Code |
-|:-------------:|:---------:|:------:|:----:|
-| k-FP Mixed    | 90.4      | 95.0   | [WFAoQ](https://github.com/jpcsmith/wf-in-the-age-of-quic/)
-| p-FP(C) Mixed | 75.9      | 67.4   | [WFAoQ](https://github.com/jpcsmith/wf-in-the-age-of-quic/)
-| DF Mixed      | 51.0      | 98.4   | [WFAoQ](https://github.com/jpcsmith/wf-in-the-age-of-quic/)
-| Var-CNN Mixed | 95.8      | 93.7   | [WFAoQ](https://github.com/jpcsmith/wf-in-the-age-of-quic/)
+| Model         | F<sub>1,r</sub>-score | Paper |  Code |
+|:-------------:|:----:|:----:|:------:|
+| k-FP Mixed    | 92.6 | [PoPETs 2021](https://doi.org/10.2478/popets-2021-0017) | [WFAoQ](https://github.com/jpcsmith/wf-in-the-age-of-quic/)
+| p-FP(C) Mixed | 71.4 | [PoPETs 2021](https://doi.org/10.2478/popets-2021-0017) | [WFAoQ](https://github.com/jpcsmith/wf-in-the-age-of-quic/)
+| DF Mixed      | 67.2 | [PoPETs 2021](https://doi.org/10.2478/popets-2021-0017) | [WFAoQ](https://github.com/jpcsmith/wf-in-the-age-of-quic/)
+| Var-CNN Mixed | 94.7 | [PoPETs 2021](https://doi.org/10.2478/popets-2021-0017) | [WFAoQ](https://github.com/jpcsmith/wf-in-the-age-of-quic/)
