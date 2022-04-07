@@ -5,7 +5,7 @@ parent: Application Identification
 has_children: false
 ---
 
-# Snowflake Fingeprintability
+# Snowflake Fingerprintability
 
 ## Dataset Overview
 
